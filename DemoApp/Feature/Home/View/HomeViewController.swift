@@ -259,7 +259,7 @@ class ProductCell: UICollectionViewCell {
   
   private let addButton: UIButton = {
     let button = UIButton()
-    button.setTitle("Add to cart", for: .normal)
+    button.setTitle("Add", for: .normal)
     button.backgroundColor = .systemYellow
     button.layer.cornerRadius = 12
     button.titleLabel?.font = .systemFont(ofSize: 12, weight: .semibold)
